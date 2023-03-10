@@ -1,0 +1,32 @@
+{
+    "extends": [
+        "config:base",
+        ":separateMultipleMajorReleases",
+        ":separatePatchReleases",
+        ":timezone(Asia/Tokyo)",
+        "github>hatena/renovate-config:automergeTypesMinor",
+        "github>hatena/renovate-config:groupAndroidPackages",
+        "github>hatena/renovate-config:groupJest"
+    ],
+    "schedule": "after 8am before 5pm on Monday",
+    "labels": [
+        "dependencies"
+    ],
+    "minor": {
+        "stabilityDays": 3
+    },
+    "patch": {
+        "stabilityDays": 3,
+        "automerge": true
+    },
+    "npm": {
+        "extends": [
+            ":noUnscheduledUpdates",
+            "npm:unpublishSafe",
+            "helpers:disableTypesNodeMajor",
+            "group:jestPlusTSJest",
+            "packages:eslint"
+        ],
+        "rangeStrategy": "bump"
+    }
+}
