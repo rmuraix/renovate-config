@@ -21,10 +21,7 @@
     },
     "npm": {
         "extends": [
-            ":noUnscheduledUpdates",
-            "npm:unpublishSafe",
             "helpers:disableTypesNodeMajor",
-            "group:jestPlusTSJest",
             "packages:eslint"
         ],
         "rangeStrategy": "bump"
