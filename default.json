@@ -17,6 +17,9 @@
     },
     "patch": {
         "stabilityDays": 3,
+        "addLabels": [
+            "auto merge"
+        ],
         "automerge": true
     },
     "npm": {
