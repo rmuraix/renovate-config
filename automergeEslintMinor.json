@@ -1,7 +1,7 @@
 {
   "packageRules": [
     {
-      "matchPackagePatterns": ["^@types/"],
+      "extends": ["packages:eslint"],
       "labels": ["dependencies", "auto merge"],
       "automerge": true,
       "major": {
