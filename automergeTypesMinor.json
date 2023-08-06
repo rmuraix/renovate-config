@@ -1,19 +1,12 @@
 {
   "packageRules": [
     {
-      "matchPackagePatterns": [
-        "^@types/"
-      ],
-      "labels": [
-        "dependencies",
-        "auto merge"
-      ],
+      "matchPackagePatterns": ["^@types/"],
+      "labels": ["dependencies", "auto merge"],
       "automerge": true,
       "major": {
         "automerge": false,
-        "labels": [
-          "dependencies"
-        ]
+        "labels": ["dependencies"]
       }
     }
   ]

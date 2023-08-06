@@ -1,30 +1,25 @@
 {
-    "extends": [
-        "config:base",
-        ":separateMultipleMajorReleases",
-        ":separatePatchReleases",
-        ":timezone(Asia/Tokyo)",
-        ":labels(dependencies)",
-        "github>rmuraix/renovate-config:automergeTypesMinor",
-        "github>hatena/renovate-config:groupAndroidPackages",
-        "github>hatena/renovate-config:groupJest"
-    ],
-    "schedule": "after 8am before 5pm on Monday",
-    "minor": {
-        "stabilityDays": 3
-    },
-    "patch": {
-        "stabilityDays": 3,
-        "addLabels": [
-            "auto merge"
-        ],
-        "automerge": true
-    },
-    "npm": {
-        "extends": [
-            "helpers:disableTypesNodeMajor",
-            "packages:eslint"
-        ],
-        "rangeStrategy": "bump"
-    }
+  "extends": [
+    "config:base",
+    ":separateMultipleMajorReleases",
+    ":separatePatchReleases",
+    ":timezone(Asia/Tokyo)",
+    ":labels(dependencies)",
+    "github>rmuraix/renovate-config:automergeTypesMinor",
+    "github>hatena/renovate-config:groupAndroidPackages",
+    "github>hatena/renovate-config:groupJest"
+  ],
+  "schedule": "after 8am before 5pm on Monday",
+  "minor": {
+    "stabilityDays": 3
+  },
+  "patch": {
+    "stabilityDays": 3,
+    "addLabels": ["auto merge"],
+    "automerge": true
+  },
+  "npm": {
+    "extends": ["helpers:disableTypesNodeMajor", "packages:eslint"],
+    "rangeStrategy": "bump"
+  }
 }
