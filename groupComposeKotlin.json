@@ -1,0 +1,9 @@
+{
+  "packageRules": [
+    {
+      "matchPackagePrefixes": ["composeOptions", "org.jetbrains.kotlin"],
+      "groupName": "Compose Options and Kotlin",
+      "groupSlug": "compose_options_and_kotlin"
+    }
+  ]
+}

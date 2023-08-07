@@ -7,6 +7,7 @@
     ":labels(dependencies)",
     "github>rmuraix/renovate-config:automergeTypesMinor",
     "github>rmuraix/renovate-config:automergeEslintMinor",
+    "github>rmuraix/renovate-config:groupComposeKotlin",
     "github>hatena/renovate-config:groupAndroidPackages",
     "github>hatena/renovate-config:groupJest"
   ],
