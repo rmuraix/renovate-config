@@ -1,7 +1,7 @@
 # renovate-config
 
 [![License](https://img.shields.io/github/license/rmuraix/renovate-config)](./LICENSE)  
-config files for Renovate
+A shareable config preset for Renovate
 
 ## Usage
 
@@ -10,6 +10,31 @@ config files for Renovate
   "extends": ["github>rmuraix/renovate-config"]
 }
 ```
+
+## features
+
+Some features use [Hatena presets](https://github.com/hatena/renovate-config)
+
+### PR creation
+
+- Waiting 3 days for patch and minor updates
+- schedule: "after 8am before 5pm on Monday"
+- Adding `auto merge` label to the PRs that are auto-merged
+- Grouping jest monorepo packages and ts-jest
+- Grouping various libraries used for Android app development, mainly based on Maven groupId
+- Grouping ComposeOptions and kotlin
+
+### Auto marge
+
+The following are auto-merged
+
+- Patch updates
+- [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)'s minor updates
+- ESlint related minor updates
+
+## Contributing
+
+Your contribution is always welcome. Please read [Contributing Guide](./.github/CONTRIBUTING.md).
 
 ## References
 
