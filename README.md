@@ -32,6 +32,10 @@ The following are auto-merged
 - [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)'s minor updates
 - ESlint related minor updates
 
+## Contributing
+
+Your contribution is always welcome. Please read [Contributing Guide](./.github/CONTRIBUTING.md).
+
 ## References
 
 [Shareable Config Presets - Renovate Docs](https://docs.renovatebot.com/config-presets/)  
