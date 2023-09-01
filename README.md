@@ -17,7 +17,7 @@ Some features use [Hatena presets](https://github.com/hatena/renovate-config)
 
 ### PR creation
 
-- Waiting 3 days for patch and minor updates
+- Waiting 3 days
 - schedule: "after 8am before 5pm on Monday"
 - Adding `auto merge` label to the PRs that are auto-merged
 - Grouping jest monorepo packages and ts-jest
