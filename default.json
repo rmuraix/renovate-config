@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base",
+    "config:best-practices",
     ":separateMultipleMajorReleases",
     ":separatePatchReleases",
     ":timezone(Asia/Tokyo)",
@@ -12,11 +12,8 @@
     "github>hatena/renovate-config:groupJest"
   ],
   "schedule": "after 8am before 5pm on Monday",
-  "minor": {
-    "stabilityDays": 3
-  },
+  "minimumReleaseAge": "3 days",
   "patch": {
-    "stabilityDays": 3,
     "addLabels": ["auto merge"],
     "automerge": true
   },
