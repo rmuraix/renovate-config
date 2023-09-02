@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:best-practices",
+    "config:recommended",
     ":separateMultipleMajorReleases",
     ":separatePatchReleases",
     ":timezone(Asia/Tokyo)",
@@ -11,6 +11,7 @@
     "github>hatena/renovate-config:groupAndroidPackages",
     "github>hatena/renovate-config:groupJest"
   ],
+  "configMigration": true,
   "schedule": "after 8am before 5pm on Monday",
   "minimumReleaseAge": "3 days",
   "patch": {
