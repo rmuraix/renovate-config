@@ -12,6 +12,7 @@
     "github>hatena/renovate-config:groupJest"
   ],
   "configMigration": true,
+  "separateMinorPatch": true,
   "schedule": "after 8am before 5pm on Monday",
   "minimumReleaseAge": "3 days",
   "patch": {
