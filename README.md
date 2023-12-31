@@ -23,6 +23,7 @@ Some features use [Hatena presets](https://github.com/hatena/renovate-config)
 - Grouping jest monorepo packages and ts-jest
 - Grouping various libraries used for Android app development, mainly based on Maven groupId
 - Grouping ComposeOptions and kotlin
+- Grouping actions/download-artifact and actions/upload-artifact
 
 ### Auto marge
 
