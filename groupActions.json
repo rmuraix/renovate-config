@@ -1,0 +1,12 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "actions/download-artifact",
+        "actions/upload-artifact"
+      ],
+      "groupName": "artifact actions",
+      "groupSlug": "artifact_actions"
+    }
+  ]
+}
