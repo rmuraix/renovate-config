@@ -7,6 +7,15 @@
       ],
       "groupName": "artifact actions",
       "groupSlug": "artifact_actions"
+    },
+    {
+      "matchPackageNames": [
+        "actions/deploy-pages",
+        "actions/upload-pages-artifact",
+        "actions/configure-pages"
+      ],
+      "groupName": "github pages actions",
+      "groupSlug": "github_pages_actions"
     }
   ]
 }
