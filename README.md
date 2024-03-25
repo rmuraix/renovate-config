@@ -18,9 +18,7 @@ A shareable config preset for Renovate
 - Waiting 3 days
 - schedule: "after 8am before 5pm on Monday"
 - Adding `auto merge` label to the PRs that are auto-merged
-- Grouping ComposeOptions and kotlin
-- Grouping actions/download-artifact and actions/upload-artifact
-- Grouping Group GitHub pages actions
+- Grouping various packages
 
 ### Auto marge
 
