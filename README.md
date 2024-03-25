@@ -13,15 +13,11 @@ A shareable config preset for Renovate
 
 ## features
 
-Some features use [Hatena presets](https://github.com/hatena/renovate-config)
-
 ### PR creation
 
 - Waiting 3 days
 - schedule: "after 8am before 5pm on Monday"
 - Adding `auto merge` label to the PRs that are auto-merged
-- Grouping jest monorepo packages and ts-jest
-- Grouping various libraries used for Android app development, mainly based on Maven groupId
 - Grouping ComposeOptions and kotlin
 - Grouping actions/download-artifact and actions/upload-artifact
 - Grouping Group GitHub pages actions

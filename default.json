@@ -9,8 +9,7 @@
     "github>rmuraix/renovate-config:automergeEslintMinor",
     "github>rmuraix/renovate-config:groupComposeKotlin",
     "github>rmuraix/renovate-config:groupActions",
-    "github>hatena/renovate-config:groupAndroidPackages",
-    "github>hatena/renovate-config:groupJest"
+    "github>rmuraix/renovate-config:groupPythonPackages"
   ],
   "configMigration": true,
   "separateMinorPatch": true,
