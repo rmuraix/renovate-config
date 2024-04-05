@@ -2,6 +2,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["astral-sh/ruff-pre-commit", "ruff"],
+      "customChangelogUrl": "https://github.com/astral-sh/ruff",
       "groupName": "ruff",
       "groupSlug": "ruff"
     }
