@@ -7,6 +7,11 @@
       "groupSlug": "ruff"
     },
     {
+      "matchPackageNames": ["fastai/nbdev", "nbdev"],
+      "groupName": "nbdev",
+      "groupSlug": "nbdev"
+    },
+    {
       "matchPackageNames": ["torch", "torchvision", "torchaudio"],
       "groupName": "Pytorch",
       "groupSlug": "pytorch"
