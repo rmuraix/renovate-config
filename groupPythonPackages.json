@@ -5,6 +5,11 @@
       "customChangelogUrl": "https://github.com/astral-sh/ruff",
       "groupName": "ruff",
       "groupSlug": "ruff"
+    },
+    {
+      "matchPackageNames": ["torch", "torchvision", "torchaudio"],
+      "groupName": "Pytorch",
+      "groupSlug": "pytorch"
     }
   ]
 }
